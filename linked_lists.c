@@ -19,6 +19,7 @@ int main ()
     current -> data = 95;
     current -> link = NULL;
     head -> link = current;
-    printf("%d", head -> data);
+    printf("%d \n", head -> data);
+    printf("%d \n", current -> data);
     return 0;
 }
